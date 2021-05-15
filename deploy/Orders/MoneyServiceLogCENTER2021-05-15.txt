@@ -1,0 +1,4 @@
+maj 15, 2021 4:12:30 EM affix.java.project.moneyservice.ExchangeSite startTheDay
+FINE: Starting the day!
+maj 15, 2021 4:12:30 EM affix.java.project.moneyservice.Config setTheRates
+FINER: *********** Getting rates from CurrencyConfig_2021-05-15.txt ************

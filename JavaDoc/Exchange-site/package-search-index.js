@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"affix.java.project.moneyservice"},{"l":"All Packages","u":"allpackages-index.html"},{"l":"MoneyServiceAPP"}];updateSearchResults();

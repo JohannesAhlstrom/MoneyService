@@ -1,0 +1,14 @@
+siteName= EAST
+logName= MoneyServiceLogWEST
+logFormat= text
+logLevel= FINEST
+min_ammount=50
+max_ammount=50000
+buyRate= 0.995
+sellRate= 1.005
+password= asdf1234
+configFolder= Configs
+dailyRatesFolder= DailyRates
+orderFolder= Orders
+siteReportsFolder= SiteReports
+transactionsFolder= Transactions

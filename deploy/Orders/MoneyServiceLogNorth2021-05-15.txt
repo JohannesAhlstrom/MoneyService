@@ -1,0 +1,8 @@
+maj 15, 2021 4:16:15 EM affix.java.project.moneyservice.ExchangeSite startTheDay
+FINE: Starting the day!
+maj 15, 2021 4:16:25 EM MoneyServiceAPP.MoneyServiceAPP clientMenu
+FINE: Press 3. Going to employee menu from customer menu
+maj 15, 2021 4:16:30 EM MoneyServiceAPP.MoneyServiceAPP clientMenu
+FINE: Correct password entered
+maj 15, 2021 4:16:36 EM affix.java.project.moneyservice.ExchangeSite shutDownService
+FINE: Saving daily transactions as serialized

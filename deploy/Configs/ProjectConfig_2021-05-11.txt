@@ -1,0 +1,4 @@
+CurrencyConfig = CurrencyConfig_2021-05-11.txt
+SEK = 10000
+End
+ReferenceCurrency = EUR

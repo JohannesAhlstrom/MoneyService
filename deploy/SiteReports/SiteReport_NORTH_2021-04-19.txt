@@ -1,0 +1,14 @@
+CurrencyConfig = CurrencyConfig_2021-04-19.txt
+AUD = 5000
+CHF = 1000
+CNY = 600
+DKK = 10000
+EUR = 5000
+GBP = 2500
+JPY = 20000
+NOK = 10000
+RUB = 29500
+SEK = 49283
+USD = 5000
+End
+ReferenceCurrency = SEK

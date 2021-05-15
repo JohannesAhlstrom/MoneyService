@@ -304,7 +304,7 @@ public class ExchangeSite implements MoneyService {
 
 	/**
 	 * Getter for attribute transactionList
-	 * @return List<Transaction> holding transactionList
+	 * @return List Transaction holding transactionList
 	 */
 	public List<Transaction> getTransactionList(){
 		return transactionList;
@@ -313,7 +313,7 @@ public class ExchangeSite implements MoneyService {
 
 	/**
 	 * Getter for attribute rates
-	 * @return List<ExchangeRate> holding rates
+	 * @return List ExchangeRate holding rates
 	 */
 	public List<ExchangeRate> getRates() {
 		return rates;

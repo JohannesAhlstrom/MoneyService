@@ -166,7 +166,8 @@ public class MoneyServiceAPP {
 		System.exit(0);
 
 	}
-
+ 
+	
 	/**
 	 * Starts up the client menu for the customer
 	 * @param theSite holding the ExchangeSite
@@ -245,6 +246,7 @@ public class MoneyServiceAPP {
 	 * Creates a Order using user inputs
 	 * @param theSite holding the ExchangeSite
 	 * @param keyboard holding the Scanner for input handling
+	 * @param employee 
 	 */
 	private static void createOrder(ExchangeSite theSite, Scanner keyboard, boolean employee) {
 		boolean okInput = false;

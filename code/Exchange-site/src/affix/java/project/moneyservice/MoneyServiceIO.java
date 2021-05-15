@@ -95,7 +95,7 @@ public class MoneyServiceIO {
 	/**
 	 * Parses the ProjectConfigFile
 	 * @param listToBeParsed
-	 * @return Map<String,Integer> Containing: CurrencyName and Value
+	 * @return Map String,Integer Containing: CurrencyName and Value
 	 */
 	public static Map<String,Double> parseProjectConfig(List<String> listToBeParsed){
 		Map<String,Double> currencyMap = new HashMap<>();
@@ -138,8 +138,8 @@ public class MoneyServiceIO {
 
 	/**
 	 * Parses an entire list of Currencies
-	 * @param listToBeParsed List<String> to be parsed
-	 * @return the parsed List<ExchangeRate>
+	 * @param listToBeParsed List String to be parsed
+	 * @return the parsed List ExchangeRate
 	 */
 	public static List<ExchangeRate> parseCurrencyConfig(List<String> listToBeParsed) {
 		List<ExchangeRate> exchangeRateList = new ArrayList<>();
@@ -173,7 +173,7 @@ public class MoneyServiceIO {
 	/**
 	 * Reads a file and returns a list of strings.
 	 * @param  filename for storage.
-	 * @return  The read List<String>.
+	 * @return  The read List String.
 	 */
 	public static List<String> readTextFiles(String filename) {
 		List<String> readStringList = new ArrayList<String>();
@@ -188,7 +188,7 @@ public class MoneyServiceIO {
 
 	/**
 	 * Saves the daily transactions in serialized format
-	 * @param listToBeSaved List<Transaction> of Transaction to be saved
+	 * @param listToBeSaved List Transaction of Transaction to be saved
 	 * @param filename String of a filename 
 	 * @return boolean true if done
 	 */
@@ -207,7 +207,7 @@ public class MoneyServiceIO {
 
 	/**
 	 * Saves the MoneyBox in a txt file
-	 * @param listToBeSaved Map<String,Currency> of the MoneyBox that is to be saved
+	 * @param listToBeSaved Map String,Currency of the MoneyBox that is to be saved
 	 * @param filename holding the name of the file
 	 * @return boolean holding outcome of the operation
 	 */
@@ -269,7 +269,7 @@ public class MoneyServiceIO {
 
 	/**
 	 * Saves the dailyTransactions as a list on a text file
-	 * @param dailyList List<Transaction> of Transactions to be saved
+	 * @param dailyList List Transaction of Transactions to be saved
 	 * @param filename String holding the name of the file to be saved
 	 * @return boolean true if successful.
 	 */

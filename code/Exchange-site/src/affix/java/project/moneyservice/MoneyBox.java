@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 /**
  * This class defines a MoneyBox in MoneyService
- * MoneyBox should be created by a Map<String,Currency> using
+ * MoneyBox should be created by a Map String,Currency using
  * input from MoneyServiceIO
  */
 public class MoneyBox implements java.io.Serializable {
@@ -29,7 +29,7 @@ public class MoneyBox implements java.io.Serializable {
 
 	/**
 	 * Constructor
-	 * @param currencyMap a Map<String,Currency> holding the Name of the Currencies
+	 * @param currencyMap a Map String,Currency holding the Name of the Currencies
 	 * and their value
 	 */
 	public MoneyBox(Map<String, Currency> currencyMap) {
@@ -39,7 +39,7 @@ public class MoneyBox implements java.io.Serializable {
 
 	/**
 	 * Getter for attribute currencyMap
-	 * @return a Map<String, Currency> holding currencyMap
+	 * @return a Map String, Currency holding currencyMap
 	 */
 	public static Map<String, Currency> getCurrencyMap() {
 		return currencyMap;
@@ -48,7 +48,7 @@ public class MoneyBox implements java.io.Serializable {
 
 	/**
 	 * Sets the currencyMap for MoneyBox according to input
-	 * @param newCurrencyMap holding the Map<String,Currency> for currencyMap
+	 * @param newCurrencyMap holding the Map String,Currency for currencyMap
 	 */
 	public void setCurrencyMap(Map<String, Currency> newCurrencyMap) {
 		MoneyBox.currencyMap = newCurrencyMap;

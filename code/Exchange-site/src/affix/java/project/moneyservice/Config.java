@@ -267,7 +267,7 @@ public class Config {
 
 	/**
 	 * Reads the daily rates and adds them to a list to be returned
-	 * @return a List<ExchangeRate> holding test
+	 * @return a List ExchangeRate holding test
 	 */
 	public static List<ExchangeRate> setTheRates() {
 		List<ExchangeRate> test = new ArrayList<ExchangeRate>(MoneyServiceIO.parseCurrencyConfig(MoneyServiceIO.readTextFiles(MoneyServiceIO.getPathName("DailyRates")+MoneyServiceIO.currencyConfigFilename)));
@@ -336,7 +336,7 @@ public class Config {
 
 	/**
 	 * Getter for attribute exchangeRateList
-	 * @return a List<ExchangeRate> holding exchangeRateList
+	 * @return a List ExchangeRate holding exchangeRateList
 	 */
 	public static List<ExchangeRate> getExchangeRateList(){
 		return exchangeRateList;

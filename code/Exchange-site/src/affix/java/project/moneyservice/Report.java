@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  *	This class defines the Report in MoneyService
- *	Report should be created with a List<Transactions> and LocalDateTime.
+ *	Report should be created with a List Transactions and LocalDateTime.
  */
 public class Report {
 
@@ -61,7 +61,7 @@ public class Report {
 
 	/**
 	 * Getter for attribute dailyTransactions
-	 * @return a List<Transactions> holding dailyTransactions
+	 * @return a List Transactions holding dailyTransactions
 	 */
 	public List<Transaction> getDailyTransaction() {
 		return dailyTransactions;
